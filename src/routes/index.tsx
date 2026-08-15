@@ -284,7 +284,8 @@ function Index() {
 
               <motion.p
                 initial={{ opacity: 0, y: 18 }}
-                animate={{ opacity: 1, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: 0.45 }}
                 className="max-w-md text-lg leading-relaxed text-muted-foreground"
               >
@@ -294,7 +295,8 @@ function Index() {
 
               <motion.div
                 initial={{ opacity: 0, y: 18 }}
-                animate={{ opacity: 1, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: 0.55 }}
                 className="mt-4 flex flex-col gap-3 sm:flex-row"
               >
