@@ -78,7 +78,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "author", content: "Rupesh Raj" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Rupesh Raj, a 2nd-year CSE (AI/ML) student and aspiring Full-Stack Developer building practical web applications and exploring AI/ML.",
+      },
       { property: "og:type", content: "website" },
+      {
+        property: "og:title",
+        content: "Rupesh Raj | Full-Stack Developer & CSE (AI/ML) Student",
+      },
+      {
+        property: "og:description",
+        content:
+          "Portfolio of Rupesh Raj, a 2nd-year CSE (AI/ML) student and aspiring Full-Stack Developer building practical web applications and exploring AI/ML.",
+      },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
@@ -87,11 +101,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap",
-      },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap",
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
