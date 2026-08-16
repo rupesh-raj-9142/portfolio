@@ -1,30 +1,44 @@
-# Animated App Builder
+# Rupesh Raj — Portfolio
 
-Build this app using the HTML files referenced below. You can hotlink the images referenced in the HTML. The attached images are screenshots of the desired screens. Here are public links to the html of the screens which you should read and use to build the app:
+Personal portfolio website built with React, TypeScript, Vite, TanStack Start, and Tailwind CSS.
 
-1. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1OTExMTA0ZWQ2MjAwNTNiNzVlMWMxMWQ5ZjRiEgsSBxD86dTaiAwYAZIBIwoKcHJvamVjdF9pZBIVQhMyMTY3NDI1NTkwNDQxMzMzMzgx&filename=&opi=89354086
+## Tech Stack
 
-make professional and backgound white and make fully  animated
+- **Frontend**: React 19, TypeScript, Tailwind CSS v4
+- **Framework**: TanStack Start (Vite-based SSR)
+- **Icons**: Lucide React
+- **Fonts**: Inter, JetBrains Mono
 
-This project was built with [Lovable](https://lovable.dev).
+## Getting Started
 
-**Live app**: https://animated-canvas-palette.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/4601fd88-0510-472e-b457-4dd4c80d0c78).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
+npm install
 npm run dev
 ```
+
+Open [http://localhost:8080](http://localhost:8080) to view the site.
+
+## Project Structure
+
+```
+src/
+├── data/portfolio-data.ts       # All editable content
+├── components/portfolio/        # Section components
+├── routes/                      # TanStack file-based routing
+├── lib/                         # Utilities
+└── styles.css                   # Design system
+```
+
+## Editing Content
+
+All portfolio content (bio, skills, projects, experience, etc.) is stored in `src/data/portfolio-data.ts`. Edit this single file to update the portfolio without touching any components.
+
+## Build
+
+```bash
+npm run build
+```
+
+## License
+
+© 2026 Rupesh Raj
