@@ -11,9 +11,9 @@ export const PERSONAL = {
   tagline: "CSE (AI/ML) Student • Full-Stack Developer • Builder",
   heroDescription:
     "I'm a 2nd-year Computer Science & Engineering (AI/ML) student who enjoys building modern web applications, solving real-world problems, and exploring AI-powered technologies.",
-  email: "rupeshraj9142@gmail.com", // ← update with your real email
+  email: "rajrupesh824143@gmail.com",
   github: "https://github.com/rupesh-raj-9142",
-  linkedin: "https://linkedin.com/in/rupesh-raj", // ← update with your real LinkedIn
+  linkedin: "https://www.linkedin.com/in/rupesh-raj-b9a353210/",
   resumeUrl: "/resume.pdf", // ← drop your resume PDF in /public
   profileImage: "/rupesh-profile.png",
 };
